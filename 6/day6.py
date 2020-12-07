@@ -22,8 +22,6 @@ for vote in votes:
             if answer not in answers:
                 all_yes = False
                 break
-            if not all_yes:
-                break
         if all_yes:
             print(answer, vote)
             counts2 += 1
